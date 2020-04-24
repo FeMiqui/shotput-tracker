@@ -6,9 +6,9 @@
 using namespace cv;
 using namespace std;
 
-int main(int argc, char* argv[])
+void loading(string pathVideo)
 {
-    string pathVideo = "path";
+    //string pathVideo = "path";
     //open the video file for reading
     VideoCapture cap(pathVideo);
 
