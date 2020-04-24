@@ -1,4 +1,4 @@
-//#include "stdafx.h"
+#include "stdafx.h"
 #include <opencv2/opencv.hpp>
 #include <iostream>
 #include <string>
@@ -8,7 +8,7 @@ using namespace std;
 
 int main(int argc, char* argv[])
 {
-    string pathVideo = "C:/Users/fmiqui/Desktop/video1.mp4";
+    string pathVideo = "path";
     //open the video file for reading
     VideoCapture cap(pathVideo);
 
